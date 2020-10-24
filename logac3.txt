@@ -1,0 +1,400 @@
+2020-10-07T01:09:24.825569+00:00 app[api]: Deploy a81b7c2c by user deivisonsouza678@gmail.com
+2020-10-07T01:09:24.825569+00:00 app[api]: Release v3 created by user deivisonsouza678@gmail.com
+2020-10-07T01:09:24.839201+00:00 app[api]: Scaled to web@1:Free by user deivisonsouza678@gmail.com
+2020-10-07T01:09:28.383559+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-07T01:09:31.075391+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-07T01:09:31.075424+00:00 app[web.1]: * Environment: production
+2020-10-07T01:09:31.075424+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-07T01:09:31.075461+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-07T01:09:31.075528+00:00 app[web.1]: * Debug mode: off
+2020-10-07T01:09:31.083613+00:00 app[web.1]: * Running on http://0.0.0.0:35379/ (Press CTRL+C to quit)
+2020-10-07T01:09:31.606293+00:00 heroku[web.1]: State changed from starting to up
+2020-10-07T01:09:33.000000+00:00 app[api]: Build succeeded
+2020-10-07T01:11:54.244842+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=32505202-04b7-4724-a4ae-ea4324ec7c64 fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:11:54.244842+00:00 app[web.1]: 10.45.208.208 - - [07/Oct/2020 01:11:54] "GET / HTTP/1.1" 200 -
+2020-10-07T01:12:32.629405+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=e11c02a3-fd2e-4767-ad12-e429753c36c4 fwd="66.249.83.196" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:12:32.630354+00:00 app[web.1]: 10.37.161.80 - - [07/Oct/2020 01:12:32] "GET / HTTP/1.1" 200 -
+2020-10-07T01:13:46.374700+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5db66c8d-619b-44bf-96c2-72ddf7002906 fwd="45.191.134.187" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:13:46.379501+00:00 app[web.1]: 10.16.250.243 - - [07/Oct/2020 01:13:46] "GET / HTTP/1.1" 200 -
+2020-10-07T01:14:48.665794+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3ef9ad94-d790-4270-93d0-f7b6341afc6d fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:14:48.666575+00:00 app[web.1]: 10.69.244.94 - - [07/Oct/2020 01:14:48] "GET / HTTP/1.1" 200 -
+2020-10-07T01:49:02.825154+00:00 heroku[web.1]: Idling
+2020-10-07T01:49:02.827291+00:00 heroku[web.1]: State changed from up to down
+2020-10-07T01:49:08.732688+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-07T01:49:08.868512+00:00 heroku[web.1]: Process exited with status 143
+2020-10-13T12:34:18.878539+00:00 heroku[web.1]: Unidling
+2020-10-13T12:34:18.881029+00:00 heroku[web.1]: State changed from down to starting
+2020-10-13T12:34:23.839177+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T12:34:27.089811+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T12:34:27.089837+00:00 app[web.1]: * Environment: production
+2020-10-13T12:34:27.089864+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T12:34:27.089950+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T12:34:27.090023+00:00 app[web.1]: * Debug mode: off
+2020-10-13T12:34:27.104953+00:00 app[web.1]: * Running on http://0.0.0.0:26874/ (Press CTRL+C to quit)
+2020-10-13T12:34:28.002795+00:00 heroku[web.1]: State changed from starting to up
+2020-10-13T12:34:28.958665+00:00 app[web.1]: 10.33.189.18 - - [13/Oct/2020 12:34:28] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:28.963350+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=513f146d-1d96-4954-aea7-1b22eec458a3 fwd="66.102.6.227" dyno=web.1 connect=0ms service=32ms status=200 bytes=566 protocol=https
+2020-10-13T12:34:29.819356+00:00 app[web.1]: 10.30.235.17 - - [13/Oct/2020 12:34:29] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:29.829080+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=1eb04fb3-1285-4a27-bbe3-a0b4455f840b fwd="66.102.6.240" dyno=web.1 connect=1ms service=10ms status=200 bytes=566 protocol=https
+2020-10-13T13:10:47.566612+00:00 heroku[web.1]: Idling
+2020-10-13T13:10:47.568959+00:00 heroku[web.1]: State changed from up to down
+2020-10-13T13:10:48.421790+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-13T13:10:48.503370+00:00 heroku[web.1]: Process exited with status 143
+2020-10-14T22:15:06.070869+00:00 heroku[web.1]: Unidling
+2020-10-14T22:15:06.084621+00:00 heroku[web.1]: State changed from down to starting
+2020-10-14T22:15:10.377962+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:15:13.632510+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-14T22:15:13.632547+00:00 app[web.1]: * Environment: production
+2020-10-14T22:15:13.632628+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T22:15:13.632689+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T22:15:13.632750+00:00 app[web.1]: * Debug mode: off
+2020-10-14T22:15:13.643893+00:00 app[web.1]: * Running on http://0.0.0.0:13287/ (Press CTRL+C to quit)
+2020-10-14T22:15:14.660658+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T22:15:15.740380+00:00 app[web.1]: 10.41.153.135 - - [14/Oct/2020 22:15:15] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:15.741351+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=c4ecbf4f-bf83-463e-a78a-37c3a96dd693 fwd="66.249.88.254" dyno=web.1 connect=1ms service=12ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.150292+00:00 app[web.1]: 10.157.87.30 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.150777+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3e9e8bf1-ab3d-458d-9642-a2417d31504f fwd="66.249.83.207" dyno=web.1 connect=0ms service=14ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.409844+00:00 app[web.1]: 10.33.189.18 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.409888+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=f9c5ea17-41da-4231-9d12-d24db7b9c5a4 fwd="66.249.88.254" dyno=web.1 connect=1ms service=20ms status=200 bytes=566 protocol=https
+2020-10-14T22:49:33.030652+00:00 heroku[web.1]: Idling
+2020-10-14T22:49:33.033706+00:00 heroku[web.1]: State changed from up to down
+2020-10-14T22:49:34.366297+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-14T22:49:34.492015+00:00 heroku[web.1]: Process exited with status 143
+2020-10-20T23:40:19.922693+00:00 heroku[web.1]: Unidling
+2020-10-20T23:40:19.924847+00:00 heroku[web.1]: State changed from down to starting
+2020-10-20T23:40:22.985183+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-20T23:40:25.246470+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-20T23:40:25.246515+00:00 app[web.1]: * Environment: production
+2020-10-20T23:40:25.246524+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-20T23:40:25.246563+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-20T23:40:25.246587+00:00 app[web.1]: * Debug mode: off
+2020-10-20T23:40:25.254386+00:00 app[web.1]: * Running on http://0.0.0.0:44151/ (Press CTRL+C to quit)
+2020-10-20T23:40:25.650011+00:00 heroku[web.1]: State changed from starting to up
+2020-10-20T23:40:26.671589+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=a582b62f-4ee0-4578-9626-c1ad85dc097c fwd="66.249.83.196" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-20T23:40:26.672101+00:00 app[web.1]: 10.11.162.79 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972291+00:00 app[web.1]: 10.69.229.158 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972638+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=11f6392f-fd3d-4602-96c3-1ecb5adfc31f fwd="66.249.83.204" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-21T00:17:36.736473+00:00 heroku[web.1]: Idling
+2020-10-21T00:17:36.740048+00:00 heroku[web.1]: State changed from up to down
+2020-10-21T00:17:37.686873+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-21T00:17:37.769836+00:00 heroku[web.1]: Process exited with status 143
+2020-10-23T23:27:11.009618+00:00 heroku[web.1]: Unidling
+2020-10-23T23:27:11.023770+00:00 heroku[web.1]: State changed from down to starting
+2020-10-23T23:27:13.995541+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-23T23:27:16.101776+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-23T23:27:16.101796+00:00 app[web.1]: * Environment: production
+2020-10-23T23:27:16.101828+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-23T23:27:16.101863+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-23T23:27:16.101893+00:00 app[web.1]: * Debug mode: off
+2020-10-23T23:27:16.109840+00:00 app[web.1]: * Running on http://0.0.0.0:35939/ (Press CTRL+C to quit)
+2020-10-23T23:27:16.214980+00:00 heroku[web.1]: State changed from starting to up
+2020-10-23T23:27:17.071188+00:00 app[web.1]: 10.7.236.68 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.071588+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5422d16c-8647-48d1-a5c2-564ac612447b fwd="45.191.134.61" dyno=web.1 connect=1ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.283396+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.283780+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3bfa94e7-d715-432f-bedb-9be3a580ff55 fwd="45.191.134.61" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.732495+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:27:17.733121+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=f912ab93-2e24-45d5-bd60-0918fc9236c3 fwd="45.191.134.61" dyno=web.1 connect=0ms service=21ms status=404 bytes=379 protocol=https
+2020-10-23T23:28:23.441952+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET / HTTP/1.1" 200 -
+2020-10-23T23:28:23.444354+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=b9d05a97-32d7-453a-92bc-9fbee3456393 fwd="45.70.224.104" dyno=web.1 connect=0ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:28:23.743994+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:28:23.746912+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=4f022ea6-8f58-45c4-ad73-cba55c846427 fwd="45.70.224.104" dyno=web.1 connect=0ms service=5ms status=404 bytes=379 protocol=https
+2020-10-07T01:09:24.825569+00:00 app[api]: Deploy a81b7c2c by user deivisonsouza678@gmail.com
+2020-10-07T01:09:24.825569+00:00 app[api]: Release v3 created by user deivisonsouza678@gmail.com
+2020-10-07T01:09:24.839201+00:00 app[api]: Scaled to web@1:Free by user deivisonsouza678@gmail.com
+2020-10-07T01:09:28.383559+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-07T01:09:31.075391+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-07T01:09:31.075424+00:00 app[web.1]: * Environment: production
+2020-10-07T01:09:31.075424+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-07T01:09:31.075461+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-07T01:09:31.075528+00:00 app[web.1]: * Debug mode: off
+2020-10-07T01:09:31.083613+00:00 app[web.1]: * Running on http://0.0.0.0:35379/ (Press CTRL+C to quit)
+2020-10-07T01:09:31.606293+00:00 heroku[web.1]: State changed from starting to up
+2020-10-07T01:09:33.000000+00:00 app[api]: Build succeeded
+2020-10-07T01:11:54.244842+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=32505202-04b7-4724-a4ae-ea4324ec7c64 fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:11:54.244842+00:00 app[web.1]: 10.45.208.208 - - [07/Oct/2020 01:11:54] "GET / HTTP/1.1" 200 -
+2020-10-07T01:12:32.629405+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=e11c02a3-fd2e-4767-ad12-e429753c36c4 fwd="66.249.83.196" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:12:32.630354+00:00 app[web.1]: 10.37.161.80 - - [07/Oct/2020 01:12:32] "GET / HTTP/1.1" 200 -
+2020-10-07T01:13:46.374700+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5db66c8d-619b-44bf-96c2-72ddf7002906 fwd="45.191.134.187" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:13:46.379501+00:00 app[web.1]: 10.16.250.243 - - [07/Oct/2020 01:13:46] "GET / HTTP/1.1" 200 -
+2020-10-07T01:14:48.665794+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3ef9ad94-d790-4270-93d0-f7b6341afc6d fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:14:48.666575+00:00 app[web.1]: 10.69.244.94 - - [07/Oct/2020 01:14:48] "GET / HTTP/1.1" 200 -
+2020-10-07T01:49:02.825154+00:00 heroku[web.1]: Idling
+2020-10-07T01:49:02.827291+00:00 heroku[web.1]: State changed from up to down
+2020-10-07T01:49:08.732688+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-07T01:49:08.868512+00:00 heroku[web.1]: Process exited with status 143
+2020-10-13T12:34:18.878539+00:00 heroku[web.1]: Unidling
+2020-10-13T12:34:18.881029+00:00 heroku[web.1]: State changed from down to starting
+2020-10-13T12:34:23.839177+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T12:34:27.089811+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T12:34:27.089837+00:00 app[web.1]: * Environment: production
+2020-10-13T12:34:27.089864+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T12:34:27.089950+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T12:34:27.090023+00:00 app[web.1]: * Debug mode: off
+2020-10-13T12:34:27.104953+00:00 app[web.1]: * Running on http://0.0.0.0:26874/ (Press CTRL+C to quit)
+2020-10-13T12:34:28.002795+00:00 heroku[web.1]: State changed from starting to up
+2020-10-13T12:34:28.958665+00:00 app[web.1]: 10.33.189.18 - - [13/Oct/2020 12:34:28] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:28.963350+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=513f146d-1d96-4954-aea7-1b22eec458a3 fwd="66.102.6.227" dyno=web.1 connect=0ms service=32ms status=200 bytes=566 protocol=https
+2020-10-13T12:34:29.819356+00:00 app[web.1]: 10.30.235.17 - - [13/Oct/2020 12:34:29] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:29.829080+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=1eb04fb3-1285-4a27-bbe3-a0b4455f840b fwd="66.102.6.240" dyno=web.1 connect=1ms service=10ms status=200 bytes=566 protocol=https
+2020-10-13T13:10:47.566612+00:00 heroku[web.1]: Idling
+2020-10-13T13:10:47.568959+00:00 heroku[web.1]: State changed from up to down
+2020-10-13T13:10:48.421790+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-13T13:10:48.503370+00:00 heroku[web.1]: Process exited with status 143
+2020-10-14T22:15:06.070869+00:00 heroku[web.1]: Unidling
+2020-10-14T22:15:06.084621+00:00 heroku[web.1]: State changed from down to starting
+2020-10-14T22:15:10.377962+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:15:13.632510+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-14T22:15:13.632547+00:00 app[web.1]: * Environment: production
+2020-10-14T22:15:13.632628+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T22:15:13.632689+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T22:15:13.632750+00:00 app[web.1]: * Debug mode: off
+2020-10-14T22:15:13.643893+00:00 app[web.1]: * Running on http://0.0.0.0:13287/ (Press CTRL+C to quit)
+2020-10-14T22:15:14.660658+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T22:15:15.740380+00:00 app[web.1]: 10.41.153.135 - - [14/Oct/2020 22:15:15] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:15.741351+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=c4ecbf4f-bf83-463e-a78a-37c3a96dd693 fwd="66.249.88.254" dyno=web.1 connect=1ms service=12ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.150292+00:00 app[web.1]: 10.157.87.30 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.150777+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3e9e8bf1-ab3d-458d-9642-a2417d31504f fwd="66.249.83.207" dyno=web.1 connect=0ms service=14ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.409844+00:00 app[web.1]: 10.33.189.18 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.409888+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=f9c5ea17-41da-4231-9d12-d24db7b9c5a4 fwd="66.249.88.254" dyno=web.1 connect=1ms service=20ms status=200 bytes=566 protocol=https
+2020-10-14T22:49:33.030652+00:00 heroku[web.1]: Idling
+2020-10-14T22:49:33.033706+00:00 heroku[web.1]: State changed from up to down
+2020-10-14T22:49:34.366297+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-14T22:49:34.492015+00:00 heroku[web.1]: Process exited with status 143
+2020-10-20T23:40:19.922693+00:00 heroku[web.1]: Unidling
+2020-10-20T23:40:19.924847+00:00 heroku[web.1]: State changed from down to starting
+2020-10-20T23:40:22.985183+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-20T23:40:25.246470+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-20T23:40:25.246515+00:00 app[web.1]: * Environment: production
+2020-10-20T23:40:25.246524+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-20T23:40:25.246563+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-20T23:40:25.246587+00:00 app[web.1]: * Debug mode: off
+2020-10-20T23:40:25.254386+00:00 app[web.1]: * Running on http://0.0.0.0:44151/ (Press CTRL+C to quit)
+2020-10-20T23:40:25.650011+00:00 heroku[web.1]: State changed from starting to up
+2020-10-20T23:40:26.671589+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=a582b62f-4ee0-4578-9626-c1ad85dc097c fwd="66.249.83.196" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-20T23:40:26.672101+00:00 app[web.1]: 10.11.162.79 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972291+00:00 app[web.1]: 10.69.229.158 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972638+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=11f6392f-fd3d-4602-96c3-1ecb5adfc31f fwd="66.249.83.204" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-21T00:17:36.736473+00:00 heroku[web.1]: Idling
+2020-10-21T00:17:36.740048+00:00 heroku[web.1]: State changed from up to down
+2020-10-21T00:17:37.686873+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-21T00:17:37.769836+00:00 heroku[web.1]: Process exited with status 143
+2020-10-23T23:27:11.009618+00:00 heroku[web.1]: Unidling
+2020-10-23T23:27:11.023770+00:00 heroku[web.1]: State changed from down to starting
+2020-10-23T23:27:13.995541+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-23T23:27:16.101776+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-23T23:27:16.101796+00:00 app[web.1]: * Environment: production
+2020-10-23T23:27:16.101828+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-23T23:27:16.101863+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-23T23:27:16.101893+00:00 app[web.1]: * Debug mode: off
+2020-10-23T23:27:16.109840+00:00 app[web.1]: * Running on http://0.0.0.0:35939/ (Press CTRL+C to quit)
+2020-10-23T23:27:16.214980+00:00 heroku[web.1]: State changed from starting to up
+2020-10-23T23:27:17.071188+00:00 app[web.1]: 10.7.236.68 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.071588+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5422d16c-8647-48d1-a5c2-564ac612447b fwd="45.191.134.61" dyno=web.1 connect=1ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.283396+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.283780+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3bfa94e7-d715-432f-bedb-9be3a580ff55 fwd="45.191.134.61" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.732495+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:27:17.733121+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=f912ab93-2e24-45d5-bd60-0918fc9236c3 fwd="45.191.134.61" dyno=web.1 connect=0ms service=21ms status=404 bytes=379 protocol=https
+2020-10-23T23:28:23.441952+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET / HTTP/1.1" 200 -
+2020-10-23T23:28:23.444354+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=b9d05a97-32d7-453a-92bc-9fbee3456393 fwd="45.70.224.104" dyno=web.1 connect=0ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:28:23.743994+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:28:23.746912+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=4f022ea6-8f58-45c4-ad73-cba55c846427 fwd="45.70.224.104" dyno=web.1 connect=0ms service=5ms status=404 bytes=379 protocol=https
+2020-10-07T01:09:31.075391+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-07T01:09:31.075424+00:00 app[web.1]: * Environment: production
+2020-10-07T01:09:31.075424+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-07T01:09:31.075461+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-07T01:09:31.075528+00:00 app[web.1]: * Debug mode: off
+2020-10-07T01:09:31.083613+00:00 app[web.1]: * Running on http://0.0.0.0:35379/ (Press CTRL+C to quit)
+2020-10-07T01:09:31.606293+00:00 heroku[web.1]: State changed from starting to up
+2020-10-07T01:09:33.000000+00:00 app[api]: Build succeeded
+2020-10-07T01:11:54.244842+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=32505202-04b7-4724-a4ae-ea4324ec7c64 fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:11:54.244842+00:00 app[web.1]: 10.45.208.208 - - [07/Oct/2020 01:11:54] "GET / HTTP/1.1" 200 -
+2020-10-07T01:12:32.629405+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=e11c02a3-fd2e-4767-ad12-e429753c36c4 fwd="66.249.83.196" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:12:32.630354+00:00 app[web.1]: 10.37.161.80 - - [07/Oct/2020 01:12:32] "GET / HTTP/1.1" 200 -
+2020-10-07T01:13:46.374700+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5db66c8d-619b-44bf-96c2-72ddf7002906 fwd="45.191.134.187" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:13:46.379501+00:00 app[web.1]: 10.16.250.243 - - [07/Oct/2020 01:13:46] "GET / HTTP/1.1" 200 -
+2020-10-07T01:14:48.665794+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3ef9ad94-d790-4270-93d0-f7b6341afc6d fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:14:48.666575+00:00 app[web.1]: 10.69.244.94 - - [07/Oct/2020 01:14:48] "GET / HTTP/1.1" 200 -
+2020-10-07T01:49:02.825154+00:00 heroku[web.1]: Idling
+2020-10-07T01:49:02.827291+00:00 heroku[web.1]: State changed from up to down
+2020-10-07T01:49:08.732688+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-07T01:49:08.868512+00:00 heroku[web.1]: Process exited with status 143
+2020-10-13T12:34:18.878539+00:00 heroku[web.1]: Unidling
+2020-10-13T12:34:18.881029+00:00 heroku[web.1]: State changed from down to starting
+2020-10-13T12:34:23.839177+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T12:34:27.089811+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T12:34:27.089837+00:00 app[web.1]: * Environment: production
+2020-10-13T12:34:27.089864+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T12:34:27.089950+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T12:34:27.090023+00:00 app[web.1]: * Debug mode: off
+2020-10-13T12:34:27.104953+00:00 app[web.1]: * Running on http://0.0.0.0:26874/ (Press CTRL+C to quit)
+2020-10-13T12:34:28.002795+00:00 heroku[web.1]: State changed from starting to up
+2020-10-13T12:34:28.958665+00:00 app[web.1]: 10.33.189.18 - - [13/Oct/2020 12:34:28] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:28.963350+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=513f146d-1d96-4954-aea7-1b22eec458a3 fwd="66.102.6.227" dyno=web.1 connect=0ms service=32ms status=200 bytes=566 protocol=https
+2020-10-13T12:34:29.819356+00:00 app[web.1]: 10.30.235.17 - - [13/Oct/2020 12:34:29] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:29.829080+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=1eb04fb3-1285-4a27-bbe3-a0b4455f840b fwd="66.102.6.240" dyno=web.1 connect=1ms service=10ms status=200 bytes=566 protocol=https
+2020-10-13T13:10:47.566612+00:00 heroku[web.1]: Idling
+2020-10-13T13:10:47.568959+00:00 heroku[web.1]: State changed from up to down
+2020-10-13T13:10:48.421790+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-13T13:10:48.503370+00:00 heroku[web.1]: Process exited with status 143
+2020-10-14T22:15:06.070869+00:00 heroku[web.1]: Unidling
+2020-10-14T22:15:06.084621+00:00 heroku[web.1]: State changed from down to starting
+2020-10-14T22:15:10.377962+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:15:13.632510+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-14T22:15:13.632547+00:00 app[web.1]: * Environment: production
+2020-10-14T22:15:13.632628+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T22:15:13.632689+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T22:15:13.632750+00:00 app[web.1]: * Debug mode: off
+2020-10-14T22:15:13.643893+00:00 app[web.1]: * Running on http://0.0.0.0:13287/ (Press CTRL+C to quit)
+2020-10-14T22:15:14.660658+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T22:15:15.740380+00:00 app[web.1]: 10.41.153.135 - - [14/Oct/2020 22:15:15] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:15.741351+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=c4ecbf4f-bf83-463e-a78a-37c3a96dd693 fwd="66.249.88.254" dyno=web.1 connect=1ms service=12ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.150292+00:00 app[web.1]: 10.157.87.30 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.150777+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3e9e8bf1-ab3d-458d-9642-a2417d31504f fwd="66.249.83.207" dyno=web.1 connect=0ms service=14ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.409844+00:00 app[web.1]: 10.33.189.18 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.409888+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=f9c5ea17-41da-4231-9d12-d24db7b9c5a4 fwd="66.249.88.254" dyno=web.1 connect=1ms service=20ms status=200 bytes=566 protocol=https
+2020-10-14T22:49:33.030652+00:00 heroku[web.1]: Idling
+2020-10-14T22:49:33.033706+00:00 heroku[web.1]: State changed from up to down
+2020-10-14T22:49:34.366297+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-14T22:49:34.492015+00:00 heroku[web.1]: Process exited with status 143
+2020-10-20T23:40:19.922693+00:00 heroku[web.1]: Unidling
+2020-10-20T23:40:19.924847+00:00 heroku[web.1]: State changed from down to starting
+2020-10-20T23:40:22.985183+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-20T23:40:25.246470+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-20T23:40:25.246515+00:00 app[web.1]: * Environment: production
+2020-10-20T23:40:25.246524+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-20T23:40:25.246563+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-20T23:40:25.246587+00:00 app[web.1]: * Debug mode: off
+2020-10-20T23:40:25.254386+00:00 app[web.1]: * Running on http://0.0.0.0:44151/ (Press CTRL+C to quit)
+2020-10-20T23:40:25.650011+00:00 heroku[web.1]: State changed from starting to up
+2020-10-20T23:40:26.671589+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=a582b62f-4ee0-4578-9626-c1ad85dc097c fwd="66.249.83.196" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-20T23:40:26.672101+00:00 app[web.1]: 10.11.162.79 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972291+00:00 app[web.1]: 10.69.229.158 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972638+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=11f6392f-fd3d-4602-96c3-1ecb5adfc31f fwd="66.249.83.204" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-21T00:17:36.736473+00:00 heroku[web.1]: Idling
+2020-10-21T00:17:36.740048+00:00 heroku[web.1]: State changed from up to down
+2020-10-21T00:17:37.686873+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-21T00:17:37.769836+00:00 heroku[web.1]: Process exited with status 143
+2020-10-23T23:27:11.009618+00:00 heroku[web.1]: Unidling
+2020-10-23T23:27:11.023770+00:00 heroku[web.1]: State changed from down to starting
+2020-10-23T23:27:13.995541+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-23T23:27:16.101776+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-23T23:27:16.101796+00:00 app[web.1]: * Environment: production
+2020-10-23T23:27:16.101828+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-23T23:27:16.101863+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-23T23:27:16.101893+00:00 app[web.1]: * Debug mode: off
+2020-10-23T23:27:16.109840+00:00 app[web.1]: * Running on http://0.0.0.0:35939/ (Press CTRL+C to quit)
+2020-10-23T23:27:16.214980+00:00 heroku[web.1]: State changed from starting to up
+2020-10-23T23:27:17.071188+00:00 app[web.1]: 10.7.236.68 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.071588+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5422d16c-8647-48d1-a5c2-564ac612447b fwd="45.191.134.61" dyno=web.1 connect=1ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.283396+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.283780+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3bfa94e7-d715-432f-bedb-9be3a580ff55 fwd="45.191.134.61" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.732495+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:27:17.733121+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=f912ab93-2e24-45d5-bd60-0918fc9236c3 fwd="45.191.134.61" dyno=web.1 connect=0ms service=21ms status=404 bytes=379 protocol=https
+2020-10-23T23:28:23.441952+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET / HTTP/1.1" 200 -
+2020-10-23T23:28:23.444354+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=b9d05a97-32d7-453a-92bc-9fbee3456393 fwd="45.70.224.104" dyno=web.1 connect=0ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:28:23.743994+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:28:23.746912+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=4f022ea6-8f58-45c4-ad73-cba55c846427 fwd="45.70.224.104" dyno=web.1 connect=0ms service=5ms status=404 bytes=379 protocol=https
+2020-10-24T00:03:56.722983+00:00 heroku[web.1]: Idling
+2020-10-24T00:03:56.725361+00:00 heroku[web.1]: State changed from up to down
+2020-10-24T00:03:57.747813+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-24T00:03:57.854986+00:00 heroku[web.1]: Process exited with status 143
+2020-10-07T01:09:31.075391+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-07T01:09:31.075424+00:00 app[web.1]: * Environment: production
+2020-10-07T01:09:31.075424+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-07T01:09:31.075461+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-07T01:09:31.075528+00:00 app[web.1]: * Debug mode: off
+2020-10-07T01:09:31.083613+00:00 app[web.1]: * Running on http://0.0.0.0:35379/ (Press CTRL+C to quit)
+2020-10-07T01:09:31.606293+00:00 heroku[web.1]: State changed from starting to up
+2020-10-07T01:09:33.000000+00:00 app[api]: Build succeeded
+2020-10-07T01:11:54.244842+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=32505202-04b7-4724-a4ae-ea4324ec7c64 fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:11:54.244842+00:00 app[web.1]: 10.45.208.208 - - [07/Oct/2020 01:11:54] "GET / HTTP/1.1" 200 -
+2020-10-07T01:12:32.629405+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=e11c02a3-fd2e-4767-ad12-e429753c36c4 fwd="66.249.83.196" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:12:32.630354+00:00 app[web.1]: 10.37.161.80 - - [07/Oct/2020 01:12:32] "GET / HTTP/1.1" 200 -
+2020-10-07T01:13:46.374700+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5db66c8d-619b-44bf-96c2-72ddf7002906 fwd="45.191.134.187" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-07T01:13:46.379501+00:00 app[web.1]: 10.16.250.243 - - [07/Oct/2020 01:13:46] "GET / HTTP/1.1" 200 -
+2020-10-07T01:14:48.665794+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3ef9ad94-d790-4270-93d0-f7b6341afc6d fwd="45.191.134.187" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-07T01:14:48.666575+00:00 app[web.1]: 10.69.244.94 - - [07/Oct/2020 01:14:48] "GET / HTTP/1.1" 200 -
+2020-10-07T01:49:02.825154+00:00 heroku[web.1]: Idling
+2020-10-07T01:49:02.827291+00:00 heroku[web.1]: State changed from up to down
+2020-10-07T01:49:08.732688+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-07T01:49:08.868512+00:00 heroku[web.1]: Process exited with status 143
+2020-10-13T12:34:18.878539+00:00 heroku[web.1]: Unidling
+2020-10-13T12:34:18.881029+00:00 heroku[web.1]: State changed from down to starting
+2020-10-13T12:34:23.839177+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T12:34:27.089811+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T12:34:27.089837+00:00 app[web.1]: * Environment: production
+2020-10-13T12:34:27.089864+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T12:34:27.089950+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T12:34:27.090023+00:00 app[web.1]: * Debug mode: off
+2020-10-13T12:34:27.104953+00:00 app[web.1]: * Running on http://0.0.0.0:26874/ (Press CTRL+C to quit)
+2020-10-13T12:34:28.002795+00:00 heroku[web.1]: State changed from starting to up
+2020-10-13T12:34:28.958665+00:00 app[web.1]: 10.33.189.18 - - [13/Oct/2020 12:34:28] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:28.963350+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=513f146d-1d96-4954-aea7-1b22eec458a3 fwd="66.102.6.227" dyno=web.1 connect=0ms service=32ms status=200 bytes=566 protocol=https
+2020-10-13T12:34:29.819356+00:00 app[web.1]: 10.30.235.17 - - [13/Oct/2020 12:34:29] "GET / HTTP/1.1" 200 -
+2020-10-13T12:34:29.829080+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=1eb04fb3-1285-4a27-bbe3-a0b4455f840b fwd="66.102.6.240" dyno=web.1 connect=1ms service=10ms status=200 bytes=566 protocol=https
+2020-10-13T13:10:47.566612+00:00 heroku[web.1]: Idling
+2020-10-13T13:10:47.568959+00:00 heroku[web.1]: State changed from up to down
+2020-10-13T13:10:48.421790+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-13T13:10:48.503370+00:00 heroku[web.1]: Process exited with status 143
+2020-10-14T22:15:06.070869+00:00 heroku[web.1]: Unidling
+2020-10-14T22:15:06.084621+00:00 heroku[web.1]: State changed from down to starting
+2020-10-14T22:15:10.377962+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:15:13.632510+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-14T22:15:13.632547+00:00 app[web.1]: * Environment: production
+2020-10-14T22:15:13.632628+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T22:15:13.632689+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T22:15:13.632750+00:00 app[web.1]: * Debug mode: off
+2020-10-14T22:15:13.643893+00:00 app[web.1]: * Running on http://0.0.0.0:13287/ (Press CTRL+C to quit)
+2020-10-14T22:15:14.660658+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T22:15:15.740380+00:00 app[web.1]: 10.41.153.135 - - [14/Oct/2020 22:15:15] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:15.741351+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=c4ecbf4f-bf83-463e-a78a-37c3a96dd693 fwd="66.249.88.254" dyno=web.1 connect=1ms service=12ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.150292+00:00 app[web.1]: 10.157.87.30 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.150777+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3e9e8bf1-ab3d-458d-9642-a2417d31504f fwd="66.249.83.207" dyno=web.1 connect=0ms service=14ms status=200 bytes=566 protocol=https
+2020-10-14T22:15:16.409844+00:00 app[web.1]: 10.33.189.18 - - [14/Oct/2020 22:15:16] "GET / HTTP/1.1" 200 -
+2020-10-14T22:15:16.409888+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=f9c5ea17-41da-4231-9d12-d24db7b9c5a4 fwd="66.249.88.254" dyno=web.1 connect=1ms service=20ms status=200 bytes=566 protocol=https
+2020-10-14T22:49:33.030652+00:00 heroku[web.1]: Idling
+2020-10-14T22:49:33.033706+00:00 heroku[web.1]: State changed from up to down
+2020-10-14T22:49:34.366297+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-14T22:49:34.492015+00:00 heroku[web.1]: Process exited with status 143
+2020-10-20T23:40:19.922693+00:00 heroku[web.1]: Unidling
+2020-10-20T23:40:19.924847+00:00 heroku[web.1]: State changed from down to starting
+2020-10-20T23:40:22.985183+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-20T23:40:25.246470+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-20T23:40:25.246515+00:00 app[web.1]: * Environment: production
+2020-10-20T23:40:25.246524+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-20T23:40:25.246563+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-20T23:40:25.246587+00:00 app[web.1]: * Debug mode: off
+2020-10-20T23:40:25.254386+00:00 app[web.1]: * Running on http://0.0.0.0:44151/ (Press CTRL+C to quit)
+2020-10-20T23:40:25.650011+00:00 heroku[web.1]: State changed from starting to up
+2020-10-20T23:40:26.671589+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=a582b62f-4ee0-4578-9626-c1ad85dc097c fwd="66.249.83.196" dyno=web.1 connect=1ms service=4ms status=200 bytes=566 protocol=https
+2020-10-20T23:40:26.672101+00:00 app[web.1]: 10.11.162.79 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972291+00:00 app[web.1]: 10.69.229.158 - - [20/Oct/2020 23:40:26] "GET / HTTP/1.1" 200 -
+2020-10-20T23:40:26.972638+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=11f6392f-fd3d-4602-96c3-1ecb5adfc31f fwd="66.249.83.204" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-21T00:17:36.736473+00:00 heroku[web.1]: Idling
+2020-10-21T00:17:36.740048+00:00 heroku[web.1]: State changed from up to down
+2020-10-21T00:17:37.686873+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-21T00:17:37.769836+00:00 heroku[web.1]: Process exited with status 143
+2020-10-23T23:27:11.009618+00:00 heroku[web.1]: Unidling
+2020-10-23T23:27:11.023770+00:00 heroku[web.1]: State changed from down to starting
+2020-10-23T23:27:13.995541+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-23T23:27:16.101776+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-23T23:27:16.101796+00:00 app[web.1]: * Environment: production
+2020-10-23T23:27:16.101828+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-23T23:27:16.101863+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-23T23:27:16.101893+00:00 app[web.1]: * Debug mode: off
+2020-10-23T23:27:16.109840+00:00 app[web.1]: * Running on http://0.0.0.0:35939/ (Press CTRL+C to quit)
+2020-10-23T23:27:16.214980+00:00 heroku[web.1]: State changed from starting to up
+2020-10-23T23:27:17.071188+00:00 app[web.1]: 10.7.236.68 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.071588+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=5422d16c-8647-48d1-a5c2-564ac612447b fwd="45.191.134.61" dyno=web.1 connect=1ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.283396+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET / HTTP/1.1" 200 -
+2020-10-23T23:27:17.283780+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=3bfa94e7-d715-432f-bedb-9be3a580ff55 fwd="45.191.134.61" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-10-23T23:27:17.732495+00:00 app[web.1]: 10.47.250.44 - - [23/Oct/2020 23:27:17] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:27:17.733121+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=f912ab93-2e24-45d5-bd60-0918fc9236c3 fwd="45.191.134.61" dyno=web.1 connect=0ms service=21ms status=404 bytes=379 protocol=https
+2020-10-23T23:28:23.441952+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET / HTTP/1.1" 200 -
+2020-10-23T23:28:23.444354+00:00 heroku[router]: at=info method=GET path="/" host=ac3si.herokuapp.com request_id=b9d05a97-32d7-453a-92bc-9fbee3456393 fwd="45.70.224.104" dyno=web.1 connect=0ms service=6ms status=200 bytes=566 protocol=https
+2020-10-23T23:28:23.743994+00:00 app[web.1]: 10.152.193.4 - - [23/Oct/2020 23:28:23] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-23T23:28:23.746912+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3si.herokuapp.com request_id=4f022ea6-8f58-45c4-ad73-cba55c846427 fwd="45.70.224.104" dyno=web.1 connect=0ms service=5ms status=404 bytes=379 protocol=https
+2020-10-24T00:03:56.722983+00:00 heroku[web.1]: Idling
+2020-10-24T00:03:56.725361+00:00 heroku[web.1]: State changed from up to down
+2020-10-24T00:03:57.747813+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-24T00:03:57.854986+00:00 heroku[web.1]: Process exited with status 143
